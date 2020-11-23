@@ -1,13 +1,9 @@
 # KuramotoSim
 
-Multi-agent technologies give us a new way to study and control complex systems. 
-Local interactions between agents often lead to their cluster synchronization, which usually is a more rapid process in comparison with relatively slow changes in external environment. 
-Usually, the goal of control system theory is defined by its behaviour on long time intervals. 
-When these time intervals are much longer than the time of cluster formation, clusters may be considered as new variables in a "slow" time model. 
-Thus, it allows us to reduce significantly the dimensionality of a system by omitting considerations of each separated agent, so that we may hope to reduce the required amount of control inputs.
-In this paper we develop a mathematical framework for analysis of cluster flows in multi-agent networks and use it to analyze the Kuramoto model as an interesting example of a complex system.
-We propose an alternative approach to system control on a meso-scale level by applying a common control action to a whole cluster--instead of treating each agent separatedly (micro-scale) or controlling the whole system (macro-scale) using a control input common for all agents.
-Clusterization leads to sparse representation of dynamic trajectories in the whole quantized state space.
-With that in mind, compressive sensing allows to restore the trajectories in high-dimensional discrete state space based on significantly lower amount of randomized integral meso-observations.
-The theoretical results, both regarding controlling clusters and compression, are demonstrated for a simulated multi-agent network with multiple clusters.
+The Kuramoto model is able to describe a huge variety of examples of synchronization in the real world. We re-consider it through the framework of the network science and study the phenomenon of a particular interest, agent clustering. 
+We assume that clusters are already recognized by some algorithm and then consider them as new variables on mesoscopic scale, which allows one to significantly reduce the dimensionality of a complicated (complex) system, thus reducing the required number of control inputs. 
+In contrast to the common approach, where each agent is treated separately, we propose an alternative one using a supplementary control input, which is equal for the whole cluster. 
+We also perform an analysis of this input by finding its limitations required for cluster structure to remain invariant in a network of Kuramoto oscillators. 
+The theoretical results are demonstrated on a simulated multi-agent network with multiple clusters.
 
+Check our paper: https://link.springer.com/chapter/10.1007%2F978-3-030-59535-7_35
