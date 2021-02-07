@@ -4,7 +4,7 @@ The Kuramoto model is able to describe a huge variety of examples of synchroniza
 We propose a framework, which is able to describe clusterization in systems of intelligent agents given their outputs.
 The current repository consists of simulation environments, which implement the framework and visualize dynamics of a system based on the local communication protocol and the topology of connections.
 
-Run MathematicsMPDI_simulator2.ipynb to obtain the most recent results.
+Run `MathematicsMPDI_simulator2.ipynb` to obtain the most recent results.
 
 Check our papers: https://link.springer.com/chapter/10.1007%2F978-3-030-59535-7_35
 and https://www.mdpi.com/2227-7390/9/1/22
